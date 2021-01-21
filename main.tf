@@ -1,7 +1,6 @@
 provider "google" {
   project     = "test-kitchen-271420"
   region      = "us-central1"
-  credentials = "$GOOGLE_APPLICATION_CREDENTIALS"
 }
 
 resource "google_compute_instance" "default" {
