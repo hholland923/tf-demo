@@ -3,7 +3,9 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: hashicorp/terraform}
+  source:
+    repository: hashicorp/terraform
+    tag: 0.13.6
 
 inputs:
 - name: tf-demo
