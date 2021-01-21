@@ -15,4 +15,4 @@ run:
   - |
     terraform init
     ls -a
-    echo heeeeeeey
+    echo heeeeeeeeey
